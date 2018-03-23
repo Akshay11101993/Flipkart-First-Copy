@@ -2,6 +2,8 @@
     <wb-module deploy-name="Flipkart">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/themes"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/WebContent/bootstrap"/>
         <property name="context-root" value="Flipkart"/>
         <property name="java-output-path" value="/Flipkart/build/classes"/>
     </wb-module>
